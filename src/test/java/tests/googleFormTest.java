@@ -20,13 +20,13 @@ public class googleFormTest {
 		
 //		PageDriver.getCurrentDriver().get(url);
 		report = ExtentFactory.getInstance();
-		parentTest = report.createTest("<p style=\"color:DarkBlue; font-size:20px\"><b>Create An Account</b></p>").assignAuthor("QA TEAM").assignDevice("window");
+		parentTest = report.createTest("<p style=\"color:DarkBlue; font-size:20px\"><b>Google login</b></p>").assignAuthor("QA TEAM").assignDevice("window");
 		
 		
 	}
 	@Test
 	public void gogleFormTest() throws IOException {
-		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Google Account.</b></p>");
+		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Provide email information.</b></p>");
 		googleFormPage gft = new googleFormPage(childTest);
 		gft.googleLogin();
 	}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rokomari.com">
+	<!-- -->
+	<test name="Test">
+		<classes>
+			<class name="tests.homePageTest" />
+		</classes>
+	</test>
+	<test name="Test1">
+		<classes>
+			<class name="tests.googleFormTest" />
+		</classes>
+	</test>
+	
+</suite>

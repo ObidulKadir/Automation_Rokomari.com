@@ -114,11 +114,15 @@ public class writerPage{
 		
 	}
 	//Selecting by category
-	public void selectCategory() throws IOException {
+	public void selectCategory() throws IOException, InterruptedException {
 		//select the first category
+		JavascriptExecutor js = (JavascriptExecutor) PageDriver.getCurrentDriver();
+		js.executeScript("window.scrollBy(0,500)", "");
+		Thread.sleep(2000);
 		try {
 			test.info("Select the : 'সমকালীন উপন্যাস' ");
 			if(selectFirstCategory.isDisplayed()) {
+				Thread.sleep(2000);
 				selectFirstCategory.click();
 				Thread.sleep(3000);
 				passCase("Selected the 'সমকালীন উপন্যাস' ");
@@ -128,6 +132,9 @@ public class writerPage{
 			failCase("selectFirstCategory is unable to locate.", "selectFirstCategoryFail");
 		}
 		//select the second category.
+		
+		js.executeScript("window.scrollBy(0,600)", "");
+		Thread.sleep(2000);
 		try {
 			test.info("Select the 'রচনা সংকলন ও সমগ্র'");
 			if(selectSecondCategory.isDisplayed()) {

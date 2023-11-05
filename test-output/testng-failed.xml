@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Rokomari.com]" guice-stage="DEVELOPMENT">
+  <test name="Test3(failed)">
     <classes>
       <class name="tests.writerPageTest">
         <methods>
-          <include name="selectCategory"/>
           <include name="StartBrowser"/>
           <include name="report"/>
           <include name="CloseBrowser"/>
+          <include name="moveToNxtPage"/>
           <include name="reportStartup"/>
+          <include name="scrollingPage"/>
         </methods>
       </class> <!-- tests.writerPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test3(failed) -->
+  <test name="Test4(failed)">
+    <classes>
+      <class name="tests.addToCartBookTest">
+        <methods>
+          <include name="addToCartBookPageTest"/>
+          <include name="placeTheOrder"/>
+          <include name="start"/>
+          <include name="report"/>
+          <include name="visitCart"/>
+        </methods>
+      </class> <!-- tests.addToCartBookTest -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Rokomari.com] -->

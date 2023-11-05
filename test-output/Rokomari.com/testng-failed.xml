@@ -3,15 +3,29 @@
 <suite name="Failed suite [Rokomari.com]" guice-stage="DEVELOPMENT">
   <test name="Test3(failed)">
     <classes>
-      <class name="tests.writerModuleTest">
+      <class name="tests.writerPageTest">
         <methods>
-          <include name="reportStartup"/>
           <include name="StartBrowser"/>
           <include name="report"/>
           <include name="CloseBrowser"/>
-          <include name="selectWriter"/>
+          <include name="moveToNxtPage"/>
+          <include name="reportStartup"/>
+          <include name="scrollingPage"/>
         </methods>
-      </class> <!-- tests.writerModuleTest -->
+      </class> <!-- tests.writerPageTest -->
     </classes>
   </test> <!-- Test3(failed) -->
+  <test name="Test4(failed)">
+    <classes>
+      <class name="tests.addToCartBookTest">
+        <methods>
+          <include name="addToCartBookPageTest"/>
+          <include name="placeTheOrder"/>
+          <include name="start"/>
+          <include name="report"/>
+          <include name="visitCart"/>
+        </methods>
+      </class> <!-- tests.addToCartBookTest -->
+    </classes>
+  </test> <!-- Test4(failed) -->
 </suite> <!-- Failed suite [Rokomari.com] -->

@@ -19,5 +19,11 @@
 		</classes>
 	</test>
 	
+	<test name="Test4">
+		<classes>
+			<class name="tests.addToCartBookTest" />
+		</classes>
+	</test>
+	
 	
 </suite>

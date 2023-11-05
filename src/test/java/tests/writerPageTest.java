@@ -36,7 +36,7 @@ public class writerPageTest extends BaseDriver {
 	}
 	
 	@Test (priority = 1)
-	public void selectCategory() throws IOException {
+	public void selectCategory() throws IOException, InterruptedException {
 		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Select the category of writer.</b></p>");
 		writerPage wm = new writerPage(childTest);
 		wm.selectCategory();

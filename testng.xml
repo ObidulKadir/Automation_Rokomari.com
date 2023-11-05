@@ -25,5 +25,11 @@
 		</classes>
 	</test>
 	
+	<test name="Test5">
+		<classes>
+			<class name="tests.shippingAddressPageTest" />
+		</classes>
+	</test>
+	
 	
 </suite>

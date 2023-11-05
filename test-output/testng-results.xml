@@ -1,107 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-05T16:38:49Z" name="Rokomari.com" finished-at="2023-11-05T16:40:02Z" duration-ms="73316">
+  <suite started-at="2023-11-05T17:39:46Z" name="Rokomari.com" finished-at="2023-11-05T17:40:56Z" duration-ms="70296">
     <groups>
     </groups>
-    <test started-at="2023-11-05T16:38:49Z" name="Test" finished-at="2023-11-05T16:39:05Z" duration-ms="15757">
+    <test started-at="2023-11-05T17:39:46Z" name="Test" finished-at="2023-11-05T17:39:53Z" duration-ms="6860">
       <class name="tests.homePageTest">
-        <test-method is-config="true" signature="startUp()[pri:0, instance:tests.homePageTest@69fb6037]" started-at="2023-11-05T22:38:49Z" name="startUp" finished-at="2023-11-05T22:39:01Z" duration-ms="12134" status="PASS">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:tests.homePageTest@69fb6037]" started-at="2023-11-05T23:39:46Z" name="startUp" finished-at="2023-11-05T23:39:49Z" duration-ms="3228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="homePageTest()[pri:0, instance:tests.homePageTest@69fb6037]" started-at="2023-11-05T22:39:01Z" name="homePageTest" finished-at="2023-11-05T22:39:05Z" duration-ms="3360" status="PASS">
+        <test-method signature="homePageTest()[pri:0, instance:tests.homePageTest@69fb6037]" started-at="2023-11-05T23:39:49Z" name="homePageTest" finished-at="2023-11-05T23:39:52Z" duration-ms="3356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method is-config="true" signature="report()[pri:0, instance:tests.homePageTest@69fb6037]" started-at="2023-11-05T22:39:05Z" name="report" finished-at="2023-11-05T22:39:05Z" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:tests.homePageTest@69fb6037]" started-at="2023-11-05T23:39:52Z" name="report" finished-at="2023-11-05T23:39:53Z" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
       </class> <!-- tests.homePageTest -->
     </test> <!-- Test -->
-    <test started-at="2023-11-05T16:39:05Z" name="Test1" finished-at="2023-11-05T16:39:16Z" duration-ms="11150">
+    <test started-at="2023-11-05T17:39:53Z" name="Test1" finished-at="2023-11-05T17:40:04Z" duration-ms="11492">
       <class name="tests.googleFormTest">
-        <test-method is-config="true" signature="startUp()[pri:0, instance:tests.googleFormTest@5939a379]" started-at="2023-11-05T22:39:05Z" name="startUp" finished-at="2023-11-05T22:39:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:tests.googleFormTest@5939a379]" started-at="2023-11-05T23:39:53Z" name="startUp" finished-at="2023-11-05T23:39:53Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="gogleFormTest()[pri:0, instance:tests.googleFormTest@5939a379]" started-at="2023-11-05T22:39:05Z" name="gogleFormTest" finished-at="2023-11-05T22:39:16Z" duration-ms="11047" status="PASS">
+        <test-method signature="gogleFormTest()[pri:0, instance:tests.googleFormTest@5939a379]" started-at="2023-11-05T23:39:53Z" name="gogleFormTest" finished-at="2023-11-05T23:40:04Z" duration-ms="11396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gogleFormTest -->
-        <test-method is-config="true" signature="report()[pri:0, instance:tests.googleFormTest@5939a379]" started-at="2023-11-05T22:39:16Z" name="report" finished-at="2023-11-05T22:39:16Z" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:tests.googleFormTest@5939a379]" started-at="2023-11-05T23:40:04Z" name="report" finished-at="2023-11-05T23:40:04Z" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
       </class> <!-- tests.googleFormTest -->
     </test> <!-- Test1 -->
-    <test started-at="2023-11-05T16:39:16Z" name="Test3" finished-at="2023-11-05T16:39:49Z" duration-ms="32560">
+    <test started-at="2023-11-05T17:40:04Z" name="Test3" finished-at="2023-11-05T17:40:36Z" duration-ms="31610">
       <class name="tests.writerPageTest">
-        <test-method is-config="true" signature="reportStartup()[pri:0, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T22:39:16Z" name="reportStartup" finished-at="2023-11-05T22:39:16Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="reportStartup()[pri:0, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T23:40:04Z" name="reportStartup" finished-at="2023-11-05T23:40:04Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportStartup -->
-        <test-method signature="writerPageTest()[pri:0, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T22:39:16Z" name="writerPageTest" finished-at="2023-11-05T22:39:28Z" duration-ms="12262" status="PASS">
+        <test-method signature="writerPageTest()[pri:0, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T23:40:04Z" name="writerPageTest" finished-at="2023-11-05T23:40:16Z" duration-ms="12073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writerPageTest -->
-        <test-method signature="selectCategory()[pri:1, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T22:39:28Z" name="selectCategory" finished-at="2023-11-05T22:39:43Z" duration-ms="14660" status="PASS">
+        <test-method signature="selectCategory()[pri:1, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T23:40:16Z" name="selectCategory" finished-at="2023-11-05T23:40:30Z" duration-ms="13969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCategory -->
-        <test-method signature="scrollingPage()[pri:2, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T22:39:43Z" name="scrollingPage" finished-at="2023-11-05T22:39:45Z" duration-ms="2252" status="PASS">
+        <test-method signature="scrollingPage()[pri:2, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T23:40:30Z" name="scrollingPage" finished-at="2023-11-05T23:40:32Z" duration-ms="2232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollingPage -->
-        <test-method signature="moveToNxtPage()[pri:3, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T22:39:45Z" name="moveToNxtPage" finished-at="2023-11-05T22:39:48Z" duration-ms="3268" status="PASS">
+        <test-method signature="moveToNxtPage()[pri:3, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T23:40:32Z" name="moveToNxtPage" finished-at="2023-11-05T23:40:36Z" duration-ms="3233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveToNxtPage -->
-        <test-method is-config="true" signature="report()[pri:0, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T22:39:48Z" name="report" finished-at="2023-11-05T22:39:49Z" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T23:40:36Z" name="report" finished-at="2023-11-05T23:40:36Z" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
       </class> <!-- tests.writerPageTest -->
     </test> <!-- Test3 -->
-    <test started-at="2023-11-05T16:39:49Z" name="Test4" finished-at="2023-11-05T16:40:02Z" duration-ms="13830">
+    <test started-at="2023-11-05T17:40:36Z" name="Test4" finished-at="2023-11-05T17:40:49Z" duration-ms="12871">
       <class name="tests.addToCartBookTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T22:39:49Z" name="start" finished-at="2023-11-05T22:39:49Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T23:40:36Z" name="start" finished-at="2023-11-05T23:40:36Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="hoverTheFirstBook()[pri:0, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T22:39:49Z" name="hoverTheFirstBook" finished-at="2023-11-05T22:39:51Z" duration-ms="2404" status="PASS">
+        <test-method signature="hoverTheFirstBook()[pri:0, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T23:40:36Z" name="hoverTheFirstBook" finished-at="2023-11-05T23:40:38Z" duration-ms="2415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverTheFirstBook -->
-        <test-method signature="addToCartBookTest()[pri:1, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T22:39:51Z" name="addToCartBookTest" finished-at="2023-11-05T22:39:54Z" duration-ms="3366" status="PASS">
+        <test-method signature="addToCartBookTest()[pri:1, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T23:40:38Z" name="addToCartBookTest" finished-at="2023-11-05T23:40:41Z" duration-ms="3349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartBookTest -->
-        <test-method signature="visitCart()[pri:2, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T22:39:54Z" name="visitCart" finished-at="2023-11-05T22:39:59Z" duration-ms="4296" status="PASS">
+        <test-method signature="visitCart()[pri:2, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T23:40:41Z" name="visitCart" finished-at="2023-11-05T23:40:45Z" duration-ms="4025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- visitCart -->
-        <test-method signature="placeTheOrder()[pri:3, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T22:39:59Z" name="placeTheOrder" finished-at="2023-11-05T22:40:02Z" duration-ms="3660" status="PASS">
+        <test-method signature="placeTheOrder()[pri:3, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T23:40:45Z" name="placeTheOrder" finished-at="2023-11-05T23:40:48Z" duration-ms="2982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeTheOrder -->
-        <test-method is-config="true" signature="report()[pri:0, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T22:40:02Z" name="report" finished-at="2023-11-05T22:40:02Z" duration-ms="95" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:tests.addToCartBookTest@19d481b]" started-at="2023-11-05T23:40:48Z" name="report" finished-at="2023-11-05T23:40:49Z" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
       </class> <!-- tests.addToCartBookTest -->
+    </test> <!-- Test4 -->
+    <test started-at="2023-11-05T17:40:49Z" name="Test5" finished-at="2023-11-05T17:40:56Z" duration-ms="7441">
+      <class name="tests.shippingAddressPageTest">
+        <test-method signature="shippingAddress()[pri:0, instance:tests.shippingAddressPageTest@61386958]" started-at="2023-11-05T23:40:49Z" name="shippingAddress" finished-at="2023-11-05T23:40:56Z" duration-ms="7350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingAddress -->
+        <test-method is-config="true" signature="start()[pri:0, instance:tests.shippingAddressPageTest@61386958]" started-at="2023-11-05T23:40:49Z" name="start" finished-at="2023-11-05T23:40:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="report()[pri:0, instance:tests.shippingAddressPageTest@61386958]" started-at="2023-11-05T23:40:56Z" name="report" finished-at="2023-11-05T23:40:56Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+      </class> <!-- tests.shippingAddressPageTest -->
       <class name="tests.writerPageTest">
-        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T22:38:46Z" name="StartBrowser" finished-at="2023-11-05T22:38:49Z" duration-ms="3202" status="PASS">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T23:39:43Z" name="StartBrowser" finished-at="2023-11-05T23:39:46Z" duration-ms="3138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartBrowser -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T22:40:02Z" name="CloseBrowser" finished-at="2023-11-05T22:40:03Z" duration-ms="406" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.writerPageTest@55b53d44]" started-at="2023-11-05T23:40:56Z" name="CloseBrowser" finished-at="2023-11-05T23:40:56Z" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- tests.writerPageTest -->
-    </test> <!-- Test4 -->
+    </test> <!-- Test5 -->
   </suite> <!-- Rokomari.com -->
 </testng-results>

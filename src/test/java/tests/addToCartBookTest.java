@@ -22,7 +22,7 @@ public class addToCartBookTest {
 	public void start() {
 		
 		report = ExtentFactory.getInstance();
-		parentTest = report.createTest("<p style=\"color:DarkBlue; font-size:20px\"><b>Shooping the book.</b></p>").assignAuthor("QA TEAM").assignDevice("windows");
+		parentTest = report.createTest("<p style=\"color:DarkBlue; font-size:20px\"><b>Shoping the book.</b></p>").assignAuthor("QA TEAM").assignDevice("windows");
 	}
 	
 	@Test (priority = 0)

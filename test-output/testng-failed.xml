@@ -5,8 +5,10 @@
     <classes>
       <class name="tests.writerPageTest">
         <methods>
+          <include name="selectCategory"/>
           <include name="StartBrowser"/>
           <include name="report"/>
+          <include name="writerPageTest"/>
           <include name="CloseBrowser"/>
           <include name="moveToNxtPage"/>
           <include name="reportStartup"/>
@@ -19,8 +21,9 @@
     <classes>
       <class name="tests.addToCartBookTest">
         <methods>
-          <include name="addToCartBookPageTest"/>
+          <include name="hoverTheFirstBook"/>
           <include name="placeTheOrder"/>
+          <include name="addToCartBookTest"/>
           <include name="start"/>
           <include name="report"/>
           <include name="visitCart"/>
@@ -28,4 +31,15 @@
       </class> <!-- tests.addToCartBookTest -->
     </classes>
   </test> <!-- Test4(failed) -->
+  <test name="Test5(failed)">
+    <classes>
+      <class name="tests.shippingAddressPageTest">
+        <methods>
+          <include name="start"/>
+          <include name="report"/>
+          <include name="shippingAddress"/>
+        </methods>
+      </class> <!-- tests.shippingAddressPageTest -->
+    </classes>
+  </test> <!-- Test5(failed) -->
 </suite> <!-- Failed suite [Rokomari.com] -->

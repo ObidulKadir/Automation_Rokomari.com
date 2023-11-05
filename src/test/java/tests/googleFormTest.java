@@ -20,7 +20,7 @@ public class googleFormTest {
 		
 //		PageDriver.getCurrentDriver().get(url);
 		report = ExtentFactory.getInstance();
-		parentTest = report.createTest("<p style=\"color:DarkBlue; font-size:20px\"><b>Google login</b></p>").assignAuthor("QA TEAM").assignDevice("window");
+		parentTest = report.createTest("<p style=\"color:DarkBlue; font-size:20px\"><b>Google login</b></p>").assignAuthor("QA TEAM").assignDevice("windows");
 		
 		
 	}

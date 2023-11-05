@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.homePageTest">
+      <class name="tests.writerPageTest">
         <methods>
+          <include name="selectCategory"/>
           <include name="StartBrowser"/>
-          <include name="startUp"/>
-          <include name="CloseBrowser"/>
           <include name="report"/>
-          <include name="homePageTest"/>
+          <include name="CloseBrowser"/>
+          <include name="reportStartup"/>
         </methods>
-      </class> <!-- tests.homePageTest -->
+      </class> <!-- tests.writerPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

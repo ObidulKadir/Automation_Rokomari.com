@@ -12,12 +12,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseDriver {
 	
 	protected static final String url = "https://www.rokomari.com";
-	WebDriver driver;
+	protected WebDriver driver;
 	
 	
 	@BeforeSuite
 	public void StartBrowser() {
-		String browserName = System.getProperty("browser", "chrome");
+		String browserName = System.getProperty("browser", "edge");
 		
 		if(browserName.equals("chrome")){
 			WebDriverManager.chromedriver().setup();

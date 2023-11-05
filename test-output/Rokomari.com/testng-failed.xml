@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rokomari.com]" guice-stage="DEVELOPMENT">
+  <test name="Test3(failed)">
+    <classes>
+      <class name="tests.writerModuleTest">
+        <methods>
+          <include name="reportStartup"/>
+          <include name="StartBrowser"/>
+          <include name="report"/>
+          <include name="CloseBrowser"/>
+          <include name="selectWriter"/>
+        </methods>
+      </class> <!-- tests.writerModuleTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Rokomari.com] -->

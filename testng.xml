@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Rokomari.com">
 	<!-- -->
-	<test name="Test">
+	 <test name="Test">
 		<classes>
 			<class name="tests.homePageTest" />
 		</classes>
@@ -12,5 +12,12 @@
 			<class name="tests.googleFormTest" />
 		</classes>
 	</test>
+	
+	<test name="Test3">
+		<classes>
+			<class name="tests.writerPageTest" />
+		</classes>
+	</test>
+	
 	
 </suite>

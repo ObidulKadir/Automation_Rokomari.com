@@ -24,7 +24,7 @@ public class homePageTest extends BaseDriver{
 		
 		PageDriver.getCurrentDriver().get(url);
 		report = ExtentFactory.getInstance();
-		parentTest = report.createTest("<p style=\"color:DarkBlue; font-size:20px\"><b>Create An Account</b></p>").assignAuthor("QA TEAM").assignDevice("window");
+		parentTest = report.createTest("<p style=\"color:DarkBlue; font-size:20px\"><b>Create An Account</b></p>").assignAuthor("QA TEAM").assignDevice("windows");
 		
 	}
 	

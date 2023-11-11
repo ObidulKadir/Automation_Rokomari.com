@@ -11,11 +11,14 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 
 import baseDrivers.PageDriver;
+import utilities.ExcelUtilites;
 import utilities.getScreenshot;
 
 public class googleFormPage {
 	
 	private ExtentTest test;
+	
+	ExcelUtilites excel = new ExcelUtilites();
 	
 	public googleFormPage(ExtentTest test) {
 		PageFactory.initElements(PageDriver.getCurrentDriver(), this);
@@ -60,12 +63,13 @@ public class googleFormPage {
 	
 	
 	public void googleLogin() throws IOException {
+		excel.readExcel();
 		
 		//Enter email on form
 		try {
 			test.info("Enter the the email address.");
 			if(userEmail.isDisplayed()) {
-				userEmail.sendKeys("96demotests@gmail.com");;
+				userEmail.sendKeys(excel.username);;
 //				Thread.sleep(3000);
 				passCase("Email address entered.");
 				passCaseWithSC("Email address entered", "userEmailEnterPass");
@@ -95,7 +99,7 @@ public class googleFormPage {
 		try {
 			test.info("Enter the password.");
 			if(userPwd.isDisplayed()) {
-				userPwd.sendKeys("Demo123!!");
+				userPwd.sendKeys(excel.password);
 				Thread.sleep(3000);
 				passCase("Password Entered.");
 				passCaseWithSC("Entered the user password. ", "userPwdPass");

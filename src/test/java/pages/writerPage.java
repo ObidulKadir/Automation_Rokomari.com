@@ -154,7 +154,7 @@ public class writerPage{
 		try {
 			test.info("Scrolling the page");
 			JavascriptExecutor js = (JavascriptExecutor) PageDriver.getCurrentDriver();
-			js.executeScript("window.scrollBy(0,4000)", "");
+			js.executeScript("window.scrollBy(0,4200)", "");
 			Thread.sleep(2000);
 			passCaseWithSC("Sucessfully scrolled the page.", "passScrolling");
 		} catch (Exception e) {

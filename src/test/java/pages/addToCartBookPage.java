@@ -5,6 +5,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -25,13 +26,11 @@ public class addToCartBookPage {
 	}
 	
 	//locating element.
-	@FindBy(xpath ="//button[@product-id='892']")
-	WebElement firstBookAddToCart;
-	
-	
-	@FindBy(xpath="//div[@title='বাঘবন্দি মিসির আলি হুমায়ূন আহমেদ']")
+	@FindBy(xpath="//div[@title='মিসির আলির চশমা হুমায়ূন আহমেদ']")
 	WebElement firstBookToHover;
 	
+	@FindBy(xpath ="//button[@product-id='8893']")
+	WebElement firstBookAddToCart;
 	
 	@FindBy(xpath="//*[@id='cart-icon']")
 	WebElement cartBtn;
@@ -66,6 +65,9 @@ public class addToCartBookPage {
 	
 	public void firstBookHover() throws IOException {
 		try {
+			JavascriptExecutor js = (JavascriptExecutor) PageDriver.getCurrentDriver();
+			js.executeScript("window.scrollBy(0,200)", "");
+			
 			test.info("First book hover.");
 			if(firstBookToHover.isDisplayed()) {
 					Actions action = new Actions(PageDriver.getCurrentDriver());

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Rokomari.com]" guice-stage="DEVELOPMENT">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="tests.googleFormTest">
+        <methods>
+          <include name="startUp"/>
+          <include name="gogleFormTest"/>
+          <include name="report"/>
+        </methods>
+      </class> <!-- tests.googleFormTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
   <test name="Test3(failed)">
     <classes>
       <class name="tests.writerPageTest">
@@ -8,6 +19,7 @@
           <include name="selectCategory"/>
           <include name="StartBrowser"/>
           <include name="report"/>
+          <include name="writerPageTest"/>
           <include name="CloseBrowser"/>
           <include name="moveToNxtPage"/>
           <include name="reportStartup"/>

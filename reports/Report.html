@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Rokomari.com Extent Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nov 11, 2023 10:21:04 AM</span></a>
+<a href="#"><span class="badge badge-primary">Nov 11, 2023 12:06:59 PM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('device-view')">
@@ -77,6 +82,7 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -103,7 +109,7 @@
           <div class="test-detail">
             <p class="name"><p style="color:DarkBlue; font-size:20px"><b>Create An Account</b></p></p>
             <p class="text-sm">
-              <span>10:21:04 AM</span> / <span>00:00:02:453</span>
+              <span>12:06:59 PM</span> / <span>00:00:03:398</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -112,9 +118,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass"><p style="color:DarkBlue; font-size:20px"><b>Create An Account</b></p></h5>
-<span class='badge badge-success'>11.11.2023 10:21:04 AM</span>
-<span class='badge badge-danger'>11.11.2023 10:21:07 AM</span>
-<span class='badge badge-default'>00:00:02:453</span>
+<span class='badge badge-success'>11.11.2023 12:06:59 PM</span>
+<span class='badge badge-danger'>11.11.2023 12:07:02 PM</span>
+<span class='badge badge-default'>00:00:03:398</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -129,7 +135,7 @@
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:02:441</span></li>
+              <li><span class='badge badge-default'>00:03:382</span></li>
               <li><span><i class="fa fa-paperclip"></i></span></li>
             </ul>
           </div>
@@ -148,28 +154,28 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:04 AM</td>
+        <td>12:06:59 PM</td>
         <td>
           Click On the sign button
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:05 AM</td>
+        <td>12:07:01 PM</td>
         <td>
           <p style="color:#85BC63; font-size:13px"><b><p style="color:green; font-size:13px"><b>Sign-in Button Clicked.</b></p></b></p>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:05 AM</td>
+        <td>12:07:01 PM</td>
         <td>
           <p style="color:#85BC63; font-size:13px"><b>Clicked on the Sign Button.</b></p>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:05 AM</td>
+        <td>12:07:01 PM</td>
         <td>
           
     <div class="row mb-3"><div class="col-md-3">
@@ -180,21 +186,21 @@
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:07 AM</td>
+        <td>12:07:02 PM</td>
         <td>
           <p style="color:#85BC63; font-size:13px"><b><p style="color:green; font-size:13px"><b>Google Button Clicked.</b></p></b></p>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:07 AM</td>
+        <td>12:07:02 PM</td>
         <td>
           <p style="color:#85BC63; font-size:13px"><b>Clicked on the google Button.</b></p>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:07 AM</td>
+        <td>12:07:02 PM</td>
         <td>
           
     <div class="row mb-3"><div class="col-md-3">
@@ -212,25 +218,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="3"
+        <li class="test-item"  status="fail" test-id="3"
           author="QATEAM"
           tag=""
           device="windows">
           <div class="test-detail">
             <p class="name"><p style="color:DarkBlue; font-size:20px"><b>Google login</b></p></p>
             <p class="text-sm">
-              <span>10:21:07 AM</span> / <span>00:00:11:747</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:07:03 PM</span> / <span>00:00:04:260</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass"><p style="color:DarkBlue; font-size:20px"><b>Google login</b></p></h5>
-<span class='badge badge-success'>11.11.2023 10:21:07 AM</span>
-<span class='badge badge-danger'>11.11.2023 10:21:19 AM</span>
-<span class='badge badge-default'>00:00:11:747</span>
+<h5 class="test-status text-fail"><p style="color:DarkBlue; font-size:20px"><b>Google login</b></p></h5>
+<span class='badge badge-success'>11.11.2023 12:07:03 PM</span>
+<span class='badge badge-danger'>11.11.2023 12:07:07 PM</span>
+<span class='badge badge-default'>00:00:04:260</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -244,8 +250,8 @@
         <div class="card-header">
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:11:745</span></li>
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>00:04:258</span></li>
               <li><span><i class="fa fa-paperclip"></i></span></li>
             </ul>
           </div>
@@ -256,7 +262,7 @@
 <span class="badge badge-pill badge-default">windows</span>            </div>
           </div>
         </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
             
 <table class="table table-sm">
@@ -264,28 +270,28 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:08 AM</td>
+        <td>12:07:03 PM</td>
         <td>
           Enter the the email address.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:08 AM</td>
+        <td>12:07:04 PM</td>
         <td>
           <p style="color:#85BC63; font-size:13px"><b>Email address entered.</b></p>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:08 AM</td>
+        <td>12:07:04 PM</td>
         <td>
           <p style="color:#85BC63; font-size:13px"><b>Email address entered</b></p>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:08 AM</td>
+        <td>12:07:04 PM</td>
         <td>
           
     <div class="row mb-3"><div class="col-md-3">
@@ -296,84 +302,60 @@
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:08 AM</td>
+        <td>12:07:04 PM</td>
         <td>
           Click on the next button.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:11 AM</td>
+        <td>12:07:07 PM</td>
         <td>
           <p style="color:#85BC63; font-size:13px"><b>Next button in email page is clicked </b></p>
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:11 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
+          <p style="color:#FF5353; font-size:13px"><b>Next button in email page is unable to locate.</b></p>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.InterruptedException: Exception
+	at pages.googleFormPage.failCase(googleFormPage.java:43)
+	at pages.googleFormPage.googleLogin(googleFormPage.java:94)
+	at tests.googleFormTest.gogleFormTest(googleFormTest.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
           
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\userEmailNextBtnPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\userEmailNextBtnPass.png">
-    
-    </div></div>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:11 AM</td>
-        <td>
-          Enter the password.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:14 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>Password Entered.</b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:14 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>Entered the user password. </b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:14 AM</td>
-        <td>
-          
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\userPwdPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\userPwdPass.png">
-    
-    </div></div>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:14 AM</td>
-        <td>
-          Click on the next button.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:17 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>Next button in password page clicked </b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:19 AM</td>
-        <td>
-          
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\userPwdNextBtnPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\userPwdNextBtnPass.png">
-    
-    </div></div>
         </td>
       </tr>
   </tbody>
@@ -385,25 +367,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="5"
+        <li class="test-item"  status="fail" test-id="5"
           author="QATEAM"
           tag=""
           device="windows">
           <div class="test-detail">
             <p class="name"><p style="color:DarkBlue; font-size:20px"><b>লেখক  Module</b></p></p>
             <p class="text-sm">
-              <span>10:21:19 AM</span> / <span>00:00:32:029</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:07:07 PM</span> / <span>00:00:00:050</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass"><p style="color:DarkBlue; font-size:20px"><b>লেখক Module</b></p></h5>
-<span class='badge badge-success'>11.11.2023 10:21:19 AM</span>
-<span class='badge badge-danger'>11.11.2023 10:21:51 AM</span>
-<span class='badge badge-default'>00:00:32:029</span>
+<h5 class="test-status text-fail"><p style="color:DarkBlue; font-size:20px"><b>লেখক Module</b></p></h5>
+<span class='badge badge-success'>11.11.2023 12:07:07 PM</span>
+<span class='badge badge-danger'>11.11.2023 12:07:07 PM</span>
+<span class='badge badge-default'>00:00:00:050</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -417,9 +399,9 @@
         <div class="card-header">
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:12:135</span></li>
-              <li><span><i class="fa fa-paperclip"></i></span></li>
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>00:00:017</span></li>
+              <li></li>
             </ul>
           </div>
           <div class="card-title">
@@ -429,7 +411,7 @@
 <span class="badge badge-pill badge-default">windows</span>            </div>
           </div>
         </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
             
 <table class="table table-sm">
@@ -437,84 +419,53 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:19 AM</td>
+        <td>12:07:07 PM</td>
         <td>
           Click on the dyanamic content appears.
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:22 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
-          <p style="color:#85BC63; font-size:13px"><b>Removed the dyanmic content.</b></p>
+          <p style="color:#FF5353; font-size:13px"><b>The dissmiss button of dyanamic content is unable to locate.</b></p>
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:22 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
+          <textarea readonly class="code-block">java.lang.InterruptedException: Exception
+	at pages.writerPage.failCase(writerPage.java:53)
+	at pages.writerPage.writerSection(writerPage.java:84)
+	at tests.writerPageTest.writerPageTest(writerPageTest.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
           
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\dyanmicAddPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\dyanmicAddPass.png">
-    
-    </div></div>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:22 AM</td>
-        <td>
-          Hover on the: লেখক module.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:26 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>Writer section hovered properly.</b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:27 AM</td>
-        <td>
-          
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\writerSectionHvrPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\writerSectionHvrPass.png">
-    
-    </div></div>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:27 AM</td>
-        <td>
-          Click on the হুমায়ূন আহমেদ
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:31 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>Clicked on the writer name: হুমায়ূন আহমেদ</b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:31 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>Clicked on the Writer Name</b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:31 AM</td>
-        <td>
-          
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\writerNamePass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\writerNamePass.png">
-    
-    </div></div>
         </td>
       </tr>
   </tbody>
@@ -527,8 +478,8 @@
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
               <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:14:399</span></li>
-              <li><span><i class="fa fa-paperclip"></i></span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
             </ul>
           </div>
           <div class="card-title">
@@ -538,88 +489,14 @@
 <span class="badge badge-pill badge-default">windows</span>            </div>
           </div>
         </div>
-        <div class="collapse">
-          <div class="card-body">
-            
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:33 AM</td>
-        <td>
-          Select the : 'সমকালীন উপন্যাস' 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:39 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>Selected the 'সমকালীন উপন্যাস' </b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:39 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>Select the first category</b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:39 AM</td>
-        <td>
-          
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\selectFirstCategoryPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\selectFirstCategoryPass.png">
-    
-    </div></div>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:41 AM</td>
-        <td>
-          Select the 'রচনা সংকলন ও সমগ্র'
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:45 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>Selected the 'রচনা সংকলন ও সমগ্র' </b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:45 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>Select the Second category</b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:45 AM</td>
-        <td>
-          
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\selectSecondCategoryPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\selectSecondCategoryPass.png">
-    
-    </div></div>
-        </td>
-      </tr>
-  </tbody>
-</table>
-          </div>
-        </div>
       </div>
       <div class="card">
         <div class="card-header">
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:02:229</span></li>
-              <li><span><i class="fa fa-paperclip"></i></span></li>
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>00:00:005</span></li>
+              <li></li>
             </ul>
           </div>
           <div class="card-title">
@@ -629,7 +506,7 @@
 <span class="badge badge-pill badge-default">windows</span>            </div>
           </div>
         </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
             
 <table class="table table-sm">
@@ -637,27 +514,53 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:45 AM</td>
+        <td>12:07:07 PM</td>
         <td>
           Scrolling the page
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:47 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
-          <p style="color:#85BC63; font-size:13px"><b>Sucessfully scrolled the page.</b></p>
+          <p style="color:#FF5353; font-size:13px"><b>Fail to scrolling the page.</b></p>
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:48 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
+          <textarea readonly class="code-block">java.lang.InterruptedException: Exception
+	at pages.writerPage.failCase(writerPage.java:53)
+	at pages.writerPage.scrollingPage(writerPage.java:161)
+	at tests.writerPageTest.scrollingPage(writerPageTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
           
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\passScrolling.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\passScrolling.png">
-    
-    </div></div>
         </td>
       </tr>
   </tbody>
@@ -669,9 +572,9 @@
         <div class="card-header">
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:03:259</span></li>
-              <li><span><i class="fa fa-paperclip"></i></span></li>
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>00:00:004</span></li>
+              <li></li>
             </ul>
           </div>
           <div class="card-title">
@@ -681,28 +584,54 @@
 <span class="badge badge-pill badge-default">windows</span>            </div>
           </div>
         </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
             
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:51 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
-          <p style="color:#85BC63; font-size:13px"><b>Clicked on the next button from pagination</b></p>
+          <p style="color:#FF5353; font-size:13px"><b>paginationNext element is unable to locate.</b></p>
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:51 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
+          <textarea readonly class="code-block">java.lang.InterruptedException: Exception
+	at pages.writerPage.failCase(writerPage.java:53)
+	at pages.writerPage.selectToNextPage(writerPage.java:174)
+	at tests.writerPageTest.moveToNxtPage(writerPageTest.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
           
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\paginationNextBtnPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\paginationNextBtnPass.png">
-    
-    </div></div>
         </td>
       </tr>
   </tbody>
@@ -714,25 +643,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="10"
+        <li class="test-item"  status="fail" test-id="10"
           author="QATEAM"
           tag=""
           device="windows">
           <div class="test-detail">
             <p class="name"><p style="color:DarkBlue; font-size:20px"><b>Shoping the book.</b></p></p>
             <p class="text-sm">
-              <span>10:21:51 AM</span> / <span>00:00:12:689</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:07:07 PM</span> / <span>00:00:00:078</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass"><p style="color:DarkBlue; font-size:20px"><b>Shoping the book.</b></p></h5>
-<span class='badge badge-success'>11.11.2023 10:21:51 AM</span>
-<span class='badge badge-danger'>11.11.2023 10:22:04 AM</span>
-<span class='badge badge-default'>00:00:12:689</span>
+<h5 class="test-status text-fail"><p style="color:DarkBlue; font-size:20px"><b>Shoping the book.</b></p></h5>
+<span class='badge badge-success'>11.11.2023 12:07:07 PM</span>
+<span class='badge badge-danger'>11.11.2023 12:07:07 PM</span>
+<span class='badge badge-default'>00:00:00:078</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -746,9 +675,9 @@
         <div class="card-header">
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:02:454</span></li>
-              <li><span><i class="fa fa-paperclip"></i></span></li>
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>00:00:023</span></li>
+              <li></li>
             </ul>
           </div>
           <div class="card-title">
@@ -758,35 +687,54 @@
 <span class="badge badge-pill badge-default">windows</span>            </div>
           </div>
         </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
             
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:51 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
-          First book hover.
+          <p style="color:#FF5353; font-size:13px"><b>hoverOnBook element is unable to locate.</b></p>
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:53 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
-          <p style="color:#85BC63; font-size:13px"><b>first book hover</b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:53 AM</td>
-        <td>
+          <textarea readonly class="code-block">java.lang.InterruptedException: Exception
+	at pages.addToCartBookPage.failCase(addToCartBookPage.java:44)
+	at pages.addToCartBookPage.firstBookHover(addToCartBookPage.java:81)
+	at tests.addToCartBookTest.hoverTheFirstBook(addToCartBookTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
           
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\firstBookToHoverPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\firstBookToHoverPass.png">
-    
-    </div></div>
         </td>
       </tr>
   </tbody>
@@ -798,9 +746,9 @@
         <div class="card-header">
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:03:360</span></li>
-              <li><span><i class="fa fa-paperclip"></i></span></li>
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>00:00:010</span></li>
+              <li></li>
             </ul>
           </div>
           <div class="card-title">
@@ -810,7 +758,7 @@
 <span class="badge badge-pill badge-default">windows</span>            </div>
           </div>
         </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
             
 <table class="table table-sm">
@@ -818,27 +766,53 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:53 AM</td>
+        <td>12:07:07 PM</td>
         <td>
           Click on the first book
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:57 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
-          <p style="color:#85BC63; font-size:13px"><b>first book is added to a cart</b></p>
+          <p style="color:#FF5353; font-size:13px"><b>First book element is unable to locate.</b></p>
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:21:57 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
+          <textarea readonly class="code-block">java.lang.InterruptedException: Exception
+	at pages.addToCartBookPage.failCase(addToCartBookPage.java:44)
+	at pages.addToCartBookPage.firstBookAddToCart(addToCartBookPage.java:95)
+	at tests.addToCartBookTest.addToCartBookTest(addToCartBookTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
           
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\firstBookAddToCartPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\firstBookAddToCartPass.png">
-    
-    </div></div>
         </td>
       </tr>
   </tbody>
@@ -850,9 +824,9 @@
         <div class="card-header">
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:03:965</span></li>
-              <li><span><i class="fa fa-paperclip"></i></span></li>
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>00:00:010</span></li>
+              <li></li>
             </ul>
           </div>
           <div class="card-title">
@@ -862,7 +836,7 @@
 <span class="badge badge-pill badge-default">windows</span>            </div>
           </div>
         </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
             
 <table class="table table-sm">
@@ -870,27 +844,53 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>10:21:57 AM</td>
+        <td>12:07:07 PM</td>
         <td>
           click on the cart button.
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:22:01 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
-          <p style="color:#85BC63; font-size:13px"><b>clicked on the cart button.</b></p>
+          <p style="color:#FF5353; font-size:13px"><b>cartBtn element is unable to locate.</b></p>
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:22:01 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
+          <textarea readonly class="code-block">java.lang.InterruptedException: Exception
+	at pages.addToCartBookPage.failCase(addToCartBookPage.java:44)
+	at pages.addToCartBookPage.visitCartPage(addToCartBookPage.java:108)
+	at tests.addToCartBookTest.visitCart(addToCartBookTest.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
           
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\cartBtnPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\cartBtnPass.png">
-    
-    </div></div>
         </td>
       </tr>
   </tbody>
@@ -902,9 +902,9 @@
         <div class="card-header">
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:02:905</span></li>
-              <li><span><i class="fa fa-paperclip"></i></span></li>
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>00:00:014</span></li>
+              <li></li>
             </ul>
           </div>
           <div class="card-title">
@@ -914,7 +914,7 @@
 <span class="badge badge-pill badge-default">windows</span>            </div>
           </div>
         </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
             
 <table class="table table-sm">
@@ -922,27 +922,53 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>10:22:01 AM</td>
+        <td>12:07:07 PM</td>
         <td>
           Click on the place the order.
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:22:04 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
-          <p style="color:#85BC63; font-size:13px"><b>clicked on the place order button.</b></p>
+          <p style="color:#FF5353; font-size:13px"><b>placeOrderBtn element is unable to locate.</b></p>
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:22:04 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
+          <textarea readonly class="code-block">java.lang.InterruptedException: Exception
+	at pages.addToCartBookPage.failCase(addToCartBookPage.java:44)
+	at pages.addToCartBookPage.placeOrder(addToCartBookPage.java:122)
+	at tests.addToCartBookTest.placeTheOrder(addToCartBookTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
           
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\placeOrderBtnPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\placeOrderBtnPass.png">
-    
-    </div></div>
         </td>
       </tr>
   </tbody>
@@ -954,25 +980,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="15"
+        <li class="test-item"  status="fail" test-id="15"
           author="QATEAM"
           tag=""
           device="windows">
           <div class="test-detail">
             <p class="name"><p style="color:DarkBlue; font-size:20px"><b>Shipping Address.</b></p></p>
             <p class="text-sm">
-              <span>10:22:04 AM</span> / <span>00:00:07:212</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:07:07 PM</span> / <span>00:00:00:026</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass"><p style="color:DarkBlue; font-size:20px"><b>Shipping Address.</b></p></h5>
-<span class='badge badge-success'>11.11.2023 10:22:04 AM</span>
-<span class='badge badge-danger'>11.11.2023 10:22:11 AM</span>
-<span class='badge badge-default'>00:00:07:212</span>
+<h5 class="test-status text-fail"><p style="color:DarkBlue; font-size:20px"><b>Shipping Address.</b></p></h5>
+<span class='badge badge-success'>11.11.2023 12:07:07 PM</span>
+<span class='badge badge-danger'>11.11.2023 12:07:08 PM</span>
+<span class='badge badge-default'>00:00:00:026</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -986,9 +1012,9 @@
         <div class="card-header">
           <div class="card-toolbar node-info">
             <ul class="list-inline d-none d-sm-block">
-              <li><span class="badge pass-bg log ">Pass</span></li>
-              <li><span class='badge badge-default'>00:07:209</span></li>
-              <li><span><i class="fa fa-paperclip"></i></span></li>
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>00:00:024</span></li>
+              <li></li>
             </ul>
           </div>
           <div class="card-title">
@@ -999,7 +1025,7 @@
 <span class="badge badge-pill badge-default">windows</span>            </div>
           </div>
         </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
             
 <table class="table table-sm">
@@ -1007,94 +1033,53 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>10:22:04 AM</td>
+        <td>12:07:07 PM</td>
         <td>
           Enter Phone Number
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:22:04 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:07 PM</td>
         <td>
-          <p style="color:#85BC63; font-size:13px"><b>Phone number enetered.</b></p>
+          <p style="color:#FF5353; font-size:13px"><b>Phone number field is unable to locate.</b></p>
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>10:22:04 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:07:08 PM</td>
         <td>
-          Select the city.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:22:06 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>The city is succesfully is selected.</b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>10:22:06 AM</td>
-        <td>
-          Select the area of city.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:22:08 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>The area is succesfully is selected.</b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>10:22:08 AM</td>
-        <td>
-          Select the Zone.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:22:09 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>The ZoneDropDown is selected</b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:22:09 AM</td>
-        <td>
+          <textarea readonly class="code-block">java.lang.InterruptedException: Exception
+	at pages.ShippingAddressPage.failCase(ShippingAddressPage.java:47)
+	at pages.ShippingAddressPage.shippingAddressGiven(ShippingAddressPage.java:76)
+	at tests.shippingAddressPageTest.shippingAddress(shippingAddressPageTest.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
           
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\zoneDropDownPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\zoneDropDownPass.png">
-    
-    </div></div>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>10:22:09 AM</td>
-        <td>
-          Enter the address.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:22:11 AM</td>
-        <td>
-          <p style="color:#85BC63; font-size:13px"><b>Successfully place the address</b></p>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:22:11 AM</td>
-        <td>
-          
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\addressPass.png' src="D:\PersonalSpace\PracticeSpace\Selenium\rokomari\screenshots\addressPass.png">
-    
-    </div></div>
         </td>
       </tr>
   </tbody>
@@ -1115,7 +1100,141 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view device-view attributes-view">
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>9</span>
+</span>
+<p class="name">java.lang.InterruptedException</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.InterruptedException</h4>
+<span status="fail" class='badge log badge-danger'>9 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='4'><p style="color:#3E96E7; font-size:20px"><b>Provide email information.</b></p></a>
+<div class="">
+<span class="badge badge-default"><p style="color:DarkBlue; font-size:20px"><b>Google login</b></p>.<p style="color:#3E96E7; font-size:20px"><b>Provide email information.</b></p></span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='6'><p style="color:#3E96E7; font-size:20px"><b>Locate the লেখক module.</b></p></a>
+<div class="">
+<span class="badge badge-default"><p style="color:DarkBlue; font-size:20px"><b>লেখক Module</b></p>.<p style="color:#3E96E7; font-size:20px"><b>Locate the লেখক module.</b></p></span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='8'><p style="color:#3E96E7; font-size:20px"><b>Scrolling the page.</b></p></a>
+<div class="">
+<span class="badge badge-default"><p style="color:DarkBlue; font-size:20px"><b>লেখক Module</b></p>.<p style="color:#3E96E7; font-size:20px"><b>Scrolling the page.</b></p></span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='9'><p style="color:#3E96E7; font-size:20px"><b>Move to next page.</b></p></a>
+<div class="">
+<span class="badge badge-default"><p style="color:DarkBlue; font-size:20px"><b>লেখক Module</b></p>.<p style="color:#3E96E7; font-size:20px"><b>Move to next page.</b></p></span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='11'><p style="color:#3E96E7; font-size:20px"><b>Hover the first book.</b></p></a>
+<div class="">
+<span class="badge badge-default"><p style="color:DarkBlue; font-size:20px"><b>Shoping the book.</b></p>.<p style="color:#3E96E7; font-size:20px"><b>Hover the first book.</b></p></span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='12'><p style="color:#3E96E7; font-size:20px"><b>Book Added to cart</b></p></a>
+<div class="">
+<span class="badge badge-default"><p style="color:DarkBlue; font-size:20px"><b>Shoping the book.</b></p>.<p style="color:#3E96E7; font-size:20px"><b>Book Added to cart</b></p></span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='13'><p style="color:#3E96E7; font-size:20px"><b>Visit the cart page.</b></p></a>
+<div class="">
+<span class="badge badge-default"><p style="color:DarkBlue; font-size:20px"><b>Shoping the book.</b></p>.<p style="color:#3E96E7; font-size:20px"><b>Visit the cart page.</b></p></span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='14'><p style="color:#3E96E7; font-size:20px"><b>Placing the order.</b></p></a>
+<div class="">
+<span class="badge badge-default"><p style="color:DarkBlue; font-size:20px"><b>Shoping the book.</b></p>.<p style="color:#3E96E7; font-size:20px"><b>Placing the order.</b></p></span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='16'><p style="color:#3E96E7; font-size:20px"><b>Shipping Address
+(Please Fill Out Your Information)</b></p></a>
+<div class="">
+<span class="badge badge-default"><p style="color:DarkBlue; font-size:20px"><b>Shipping Address.</b></p>.<p style="color:#3E96E7; font-size:20px"><b>Shipping Address
+(Please Fill Out Your Information)</b></p></span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view device-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Device</span></a></li></ul>
@@ -1126,7 +1245,8 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>5</span>
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>4</span>
 </span>
 <p class="name">windows</p>
 <p class="duration text-sm">5 tests</p>
@@ -1134,7 +1254,8 @@
 <div class="test-contents d-none">
 <div class="info">
 <h4>windows</h4>
-<span status="pass" class='badge log pass-bg'>5 passed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1147,35 +1268,35 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>10:21:04 AM</td>
+<td>12:06:59 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'><p style="color:DarkBlue; font-size:20px"><b>Create An Account</b></p></a>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:21:07 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:03 PM</td>
 <td>
 <a href="#" class="linked" test-id='3' id='3'><p style="color:DarkBlue; font-size:20px"><b>Google login</b></p></a>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:21:19 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
 <td>
 <a href="#" class="linked" test-id='5' id='5'><p style="color:DarkBlue; font-size:20px"><b>লেখক Module</b></p></a>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:21:51 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
 <td>
 <a href="#" class="linked" test-id='10' id='10'><p style="color:DarkBlue; font-size:20px"><b>Shoping the book.</b></p></a>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:22:04 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
 <td>
 <a href="#" class="linked" test-id='15' id='15'><p style="color:DarkBlue; font-size:20px"><b>Shipping Address.</b></p></a>
 </td>
@@ -1203,7 +1324,8 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>5</span>
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>4</span>
 </span>
 <p class="name">QATEAM</p>
 <p class="duration text-sm">5 tests</p>
@@ -1211,7 +1333,8 @@
 <div class="test-contents d-none">
 <div class="info">
 <h4>QATEAM</h4>
-<span status="pass" class='badge log pass-bg'>5 passed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1224,35 +1347,35 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>10:21:04 AM</td>
+<td>12:06:59 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'><p style="color:DarkBlue; font-size:20px"><b>Create An Account</b></p></a>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:21:07 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:03 PM</td>
 <td>
 <a href="#" class="linked" test-id='3' id='3'><p style="color:DarkBlue; font-size:20px"><b>Google login</b></p></a>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:21:19 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
 <td>
 <a href="#" class="linked" test-id='5' id='5'><p style="color:DarkBlue; font-size:20px"><b>লেখক Module</b></p></a>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:21:51 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
 <td>
 <a href="#" class="linked" test-id='10' id='10'><p style="color:DarkBlue; font-size:20px"><b>Shoping the book.</b></p></a>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:22:04 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:07:07 PM</td>
 <td>
 <a href="#" class="linked" test-id='15' id='15'><p style="color:DarkBlue; font-size:20px"><b>Shipping Address.</b></p></a>
 </td>
@@ -1274,25 +1397,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Nov 11, 2023 10:21:04 AM</h3>
+<h3>Nov 11, 2023 12:06:59 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Nov 11, 2023 10:22:11 AM</h3>
+<h3>Nov 11, 2023 12:07:08 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>5</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>4</h3>
 </div></div>
 </div>
 </div>
@@ -1308,12 +1431,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>5</b> tests passed
+<div><small data-tooltip='20%'>
+<b>1</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='80%'><b>4</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -1331,9 +1454,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>11</b> steps passed</small></div>
+<div><small data-tooltip='18%'><b>2</b> steps passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> steps failed,
+<small data-tooltip='81%'><b>9</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -1351,10 +1474,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='70%'><b>48</b> events passed</small></div>
+<div><small data-tooltip='27%'><b>10</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>20</b> others
+<small data-tooltip='48%'><b>18</b> events failed,
+<b data-tooltip='%'>9</b> others
 </small>
 </div>
 </div>
@@ -1370,7 +1493,7 @@
 </div></div>
 <script>
 var timeline = {
-"<p style="color:DarkBlue; font-size:20px"><b>Create An Account</b></p>":2.453,"<p style="color:DarkBlue; font-size:20px"><b>Google login</b></p>":11.747,"<p style="color:DarkBlue; font-size:20px"><b>লেখক Module</b></p>":32.029,"<p style="color:DarkBlue; font-size:20px"><b>Shoping the book.</b></p>":12.689,"<p style="color:DarkBlue; font-size:20px"><b>Shipping Address.</b></p>":7.212
+"<p style="color:DarkBlue; font-size:20px"><b>Create An Account</b></p>":3.398,"<p style="color:DarkBlue; font-size:20px"><b>Google login</b></p>":4.26,"<p style="color:DarkBlue; font-size:20px"><b>লেখক Module</b></p>":0.05,"<p style="color:DarkBlue; font-size:20px"><b>Shoping the book.</b></p>":0.078,"<p style="color:DarkBlue; font-size:20px"><b>Shipping Address.</b></p>":0.026
 };
 </script>
 <div class="row">
@@ -1382,11 +1505,11 @@ var timeline = {
 <tbody>
 <tr>
 <td>QATEAM</td>
-<td>5</td>
+<td>1</td>
+<td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>20%</td>
 </tr>
 </tbody>
 </table></div>
@@ -1400,11 +1523,11 @@ var timeline = {
 <tbody>
 <tr>
 <td>windows</td>
-<td>5</td>
+<td>1</td>
+<td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>20%</td>
 </tr>
 </tbody>
 </table></div>
@@ -1415,13 +1538,13 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 5,
-failParent: 0,
+passParent: 1,
+failParent: 4,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 11,
-failChild: 0,
+passChild: 2,
+failChild: 9,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
@@ -1432,11 +1555,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 48,
-failEvents: 0,
+passEvents: 10,
+failEvents: 18,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 20
+infoEvents: 9
 };
 </script>        </div>
       </div>
